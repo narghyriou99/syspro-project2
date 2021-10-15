@@ -1,0 +1,20 @@
+928 George Papadopoulos Greece 52 COVID-19 NO
+928 George Papadopoulos Greece 52 SARS-1 YES 1-1-2019
+889 John Papadopoulos Greece 52 COVID-19 YES 27-12-2020
+687 Maria Kalas Bulgaria 42 COVID-19 YES 1-5-2020
+776 Maria Tortellini Italy 36 SARS-1 NO
+125 Jon Dupont USA 76 H1N1 YES 30-10-2020
+739 Nikos Anastasiou Greece 42 SARS-5 NO
+125 Jon Dupont USA 76 H1N1 YES 30-10-2020
+568 Lenia Papadopoulou Bulgaria 47 SARS-2 NO 23-10-2018
+528 Kostas Lemonidis Serbia 49 COVID-19 NO
+927 Thanasis Kolokithas Greece 23 COVID-19 YES 03-02-2020
+4234 Thanos Anastasiou USA 23 COVID-19 YES 05-03-2020
+5342 Kostas Katakouzinos USA 34 H1N1 YES 2-12-2015
+8252 Eleni Vlahaki USA 54 COVID-19 NO 03-02-2019
+2894 Konstantina Anastasiou USA 13 H1N1 YES 28-02-2020
+7254 Thanos Kontos Bulgaria 14 COVID-19 YES 30-02-2020
+1832 Anna Papadopoulou Bulgaria 17 H1N1 YES 03-05-2020
+1027 Thanos Papadopoulos Bulgaria 43 COVID-19 NO
+620 Maria Anastasiou Serbia 74 H1N1 YES 02-03-2020
+223 Elena Vlahou Greece 46 COVID-19 NO

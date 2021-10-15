@@ -1,0 +1,50 @@
+Earino Eksamino 2021
+Programmatismos Systhmatos
+Ergasia 2
+Argyriou Nikolaos
+AM: 1115201700008
+
+
+Ta pipes exoun ilopoihthei ws ekshs:
+-Xrisimopoiw 2 pipes ana monitor(read/write)
+-Sigkekrimena exoun morfi: fifo#0, fifo#1 opou # einai to monitor id.
+-Sto fifo#0 grafei o travelMonitor kai diavazei o monitor.
+-Sto fifo#1 grafei o monitor kai diavazei o travelMonitor.
+
+Apo ekei pragmatopoieitai oli i epikoinwnia metaksi travelMonitor-monitor(Energeies arxikopoisis, Queries)
+
+Xrisimopoiw to SIGUSR2 gia na eidopoisw ta monitors oti yparxei kapoio query pros apantisi.(Ta monitor trexoun mia while me pause, mexri na erthei kapoio sima, etsi wste na elaxistopoihsw thn katanalwsh porwn tou systimatos)
+
+Queries:
+1)Leitourgei swsta
+2)Leitourgei swsta
+3)Leitourgei swsta
+4)Leitourgei swsta
+5)Leitourgei swsta
+
+Stelnw apantiseis: info1*info2*info3....../, opou * keno, / allagh grammis
+
+Log files: Ola ta logs dimiourgountai sto directory logs
+
+Signals:
+To programma diaxeirizetai ta simata pou zitountai mesw enos signal handler, pou kathe fora metavalei tin timh enos global flag.
+Epishs, otan to travelMonitor termatizei gia na agnoisw to SIGCHLD apo ta monitors xrisimopoiw ena diaforetiko flag.
+
+Otan to monitor lavei SIGINT h SIGQUIT dimiourgei antistoixo log file.
+Otan to monitor lavei SIGKILL termatizei kanonika apodesmeuontas swsta tin mnimi.
+
+Bash script:
+Leitourgei swsta simfona me tis prodiagrafes tis askisis kai tis odigies ton didaskontwn.
+
+Odigies Ektelesis:
+
+-Bash script: ./create_infiles.sh record.txt ./test 3
+
+-Makefile:  make: separate compilation
+            make run: ./travelMonitor -m 5 -b 16 -s 100000 -i ./test
+            make valgrind: valgrind ./travelMonitor -m 5 -b 16 -s 100000 -i ./test
+            make clean: Ekkatharisi .o kai fifos
+
+Ston fakelo vriskontai 2 arxeia me eggrafes politwn:
+-record.txt (20 records / just for testing)
+-record2.txt (10k records)
